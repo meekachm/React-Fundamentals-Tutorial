@@ -9,8 +9,8 @@ function POPOSSpace(props) {
       <Link to={`/details/${id}`}>
         <img
           src={`${process.env.PUBLIC_URL}/images/${image}`}
-          width="300"
-          height="300"
+          width="400"
+          height="400"
           alt="50 California St."
         />
       </Link>
