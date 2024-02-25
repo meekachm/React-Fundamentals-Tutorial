@@ -1,0 +1,23 @@
+.RandomSpace {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 6px 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.RandomSpace:hover {
+  background-color: #333333;
+}
+
+/* Adjust button appearance for smaller screens */
+@media screen and (max-width: 768px) {
+  .RandomSpace {
+    font-size: 0.9rem;
+    padding: 0.8em 1.5em;
+  }
+}
