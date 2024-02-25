@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import './Title.css';
 
 function Title() {
   return (
-    <div>
+    <div className="Title">
       <h1>SFPOPOS</h1>
       <div className="Title-Subtitle">
         <h2>San Franciscos Privately Owned Public Spaces</h2>
@@ -12,4 +12,4 @@ function Title() {
   )
 }
 
-export default Title
+export default Title;
