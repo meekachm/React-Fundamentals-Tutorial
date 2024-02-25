@@ -6,7 +6,7 @@ function Title() {
     <div className="Title">
       <h1>SFPOPOS</h1>
       <div className="Title-Subtitle">
-        <h2>San Franciscos Privately Owned Public Spaces</h2>
+        <small>San Franciscos Privately Owned Public Spaces</small>
       </div>
     </div>
   )
